@@ -1,0 +1,24 @@
+{
+  "server": {
+    "host": "your.domain.com",
+    "port": 443,
+    "tls": {
+      "cert_path": "/etc/analytics/public.pem",
+      "key_path": "/etc/analytics/private.key"
+    }
+  },
+  "query": {
+    "quantil": true
+  },
+  "db": {
+    "driver": "clickhouse",
+    "host": "127.0.0.1",
+    "port": 9000,
+    "username": "default",
+    "password": "",
+    "blacklist": ["system", "default"]
+  },
+  "ur": {
+    "min_version": "5.1.5"
+  }
+}

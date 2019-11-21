@@ -1,0 +1,1 @@
+All analytics errors will be logged here.
